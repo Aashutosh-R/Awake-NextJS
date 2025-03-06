@@ -25,7 +25,7 @@ export default function Hero() {
           </div>
         </motion.div>
         <div className='pt-4'>
-          <p className='text-black/60 text-xs sm:text-xm md:text-base font-normal text-center leading-5.5 '>
+          <p className='text-black/60 dark:text-white/60 text-xs sm:text-xm md:text-base font-normal text-center leading-5.5 '>
             At Awake, we help small startups tackle the world’s biggest
             challenges with tailored <br /> solutions, guiding you from strategy
             to success in a competitive market.
@@ -68,7 +68,7 @@ export default function Hero() {
                 />
               </div>
               <div className='pt-1'>
-                <p className='text-xs sm:text-sm font-normal text-inherit/60'>
+                <p className='text-xs sm:text-sm font-normal text-black/60 dark:text-white/60'>
                   Trusted by 1000+ clients
                 </p>
               </div>
