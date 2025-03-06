@@ -26,8 +26,10 @@ const FAQ: React.FC = () => {
               <li
                 key={index}
                 className={`${
-                  expandedIndex === index ? 'bg-black/5' : 'bg-white'
-                } border border-black/10 rounded-2xl px-6 py-8`}>
+                  expandedIndex === index
+                    ? 'bg-black/5 dark:bg-white/5'
+                    : 'bg-transparent'
+                } border border-black/10 dark:border-white/20 rounded-2xl px-6 py-8`}>
                 <span className='flex items-center justify-between'>
                   <h6 className='text-xl font-medium'>{item.que}</h6>
                   <button
@@ -43,7 +45,7 @@ const FAQ: React.FC = () => {
                     expandedIndex === index
                       ? 'max-h-96 opacity-100 mt-3'
                       : 'max-h-0 opacity-0'
-                  } text-base font-normal text-black/60`}
+                  } text-base font-normal text-black/60 dark:text-white/60`}
                   style={{
                     transitionProperty: 'max-height, opacity, margin-top',
                   }}>
