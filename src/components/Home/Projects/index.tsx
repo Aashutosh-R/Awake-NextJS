@@ -6,7 +6,7 @@ const Projects: React.FC = () => {
     <section>
       <div className='container max-w-[1272px] mx-auto py-20 px-7'>
         <div className='text-center mb-20'>
-          <h3 className='text-4xl lg:text-5xl font-medium text-black'>
+          <h3 className='text-4xl lg:text-5xl font-medium'>
             How we{' '}
             <span className='InstrumentS italic font-normal'>transformed</span>{' '}
             a small <br /> business’s online presence
@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
                   {item.tags.map((tags, index) => (
                     <button
                       key={index}
-                      className='text-xs lg:text-xm font-normal px-4 py-1.5 border border-black/10 rounded-full hover:bg-black hover:text-white'>
+                      className='text-xs lg:text-xm font-normal px-4 py-1.5 border border-black/10 dark:border-white/10 rounded-full hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black'>
                       {tags}
                     </button>
                   ))}
