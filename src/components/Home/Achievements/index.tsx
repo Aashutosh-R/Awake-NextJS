@@ -8,7 +8,7 @@ const Achievements: React.FC = () => {
         <div className='mb-20'>
           <h3 className='text-5xl font-medium leading-14 text-center'>
             Accolades and{' '}
-            <span className='font-instrumentS font-normal'>achievements</span>{' '}
+            <span className='InstrumentS italic font-normal'>achievements</span>{' '}
             <br />
             celebration our design excellence
           </h3>

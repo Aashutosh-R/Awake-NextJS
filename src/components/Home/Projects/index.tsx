@@ -8,8 +8,8 @@ const Projects: React.FC = () => {
         <div className='text-center mb-20'>
           <h3 className='text-4xl lg:text-5xl font-medium text-black'>
             How we{' '}
-            <span className='font-normal font-instrumentS'>transformed</span> a
-            small <br /> business’s online presence
+            <span className='InstrumentS italic font-normal'>transformed</span>{' '}
+            a small <br /> business’s online presence
           </h3>
         </div>
         {/* projects details */}

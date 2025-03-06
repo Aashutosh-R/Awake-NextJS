@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter_Tight } from 'next/font/google'
+import { Inter_Tight , Instrument_Serif } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Layout/Header'
 import Footer from '@/components/Layout/Footer'
@@ -8,7 +8,16 @@ import { ThemeProvider } from 'next-themes'
 import AuthProvider from '@/context/AuthProvider'
 
 const inter = Inter_Tight({
+  variable: '--font-inter',
   subsets: ['latin'],
+})
+
+const instrumentS = Instrument_Serif({
+  variable: '--font-InstrumentS',
+  subsets: ['latin'],
+  weight: '400',
+  display:'swap',
+  style:'italic'
 })
 
 export const metadata: Metadata = {
@@ -23,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={`${inter.variable} ${instrumentS.variable} antialiased`}>
         <AuthProvider>
           <NextTopLoader color='#4928fd' />
           <ThemeProvider

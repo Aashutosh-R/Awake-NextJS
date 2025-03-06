@@ -7,7 +7,7 @@ const Reviews: React.FC = () => {
         <div className='text-center mb-20'>
           <h3 className='text-4xl lg:text-5xl font-medium'>
             What our{' '}
-            <span className='font-instrumentS font-normal'>satisfied</span>{' '}
+            <span className='InstrumentS italic font-normal'>satisfied</span>{' '}
             customers <br />
             are saying about us
           </h3>

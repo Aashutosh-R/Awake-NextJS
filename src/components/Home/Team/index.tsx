@@ -10,7 +10,9 @@ const Team: React.FC = () => {
         <div className='text-center mb-20'>
           <h3 className='text-4xl lg:text-5xl font-medium'>
             Meet the{' '}
-            <span className='font-instrumentS font-normal'>creative minds</span>
+            <span className='InstrumentS italic font-normal'>
+              creative minds
+            </span>
             <br /> behind our success
           </h3>
         </div>

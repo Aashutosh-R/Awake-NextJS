@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
-
+@import 'tailwindcss';
 @plugin 'tailwindcss-animate';
 
 @custom-variant dark (&:is(.dark *));
 @custom-variant dark (&:where(.dark, .dark *));
-@import 'tailwindcss';
 
 @theme {
-  /* font-family */
-  --font-instrumentS: 'Instrument Serif', serif;
 
   /* breakpoint */
   --breakpoint-xxs: 34.375rem;
@@ -24,8 +20,8 @@
   --color-primary: #4928fd;
   --color-lightblue: #d9f3fc;
   --color-lightyellow: #fdf1d3;
-  --color-lightgreen: #5E8E3E;
-  --color-lightred: #FA0C00;
+  --color-lightgreen: #5e8e3e;
+  --color-lightred: #fa0c00;
 
   /* line-height */
   --leading-5.5: 1.4rem;
@@ -36,4 +32,12 @@
   --spacing-30p: 30%;
   --spacing-60p: 60%;
   --spacing-80p: 80%;
+}
+
+body {
+  font-family: var(--font-inter), sans-serif;;
+}
+
+.InstrumentS {
+  font-family: var(--font-InstrumentS), serif;
 }

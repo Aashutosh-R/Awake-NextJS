@@ -16,7 +16,7 @@ const About: React.FC = () => {
         <div className='mb-16'>
           <h4 className='text-3xl sm:text-4xl lg:text-5xl font-medium text-center leading-14'>
             We fuse{' '}
-            <span className='font-instrumentS font-normal inline-flex items-center justify-center gap-2 py-1.5 px-6 text-purple-400 bg-purple-300/20 rounded-full'>
+            <span className='InstrumentS italic font-normal inline-flex items-center justify-center gap-2 py-1.5 px-6 text-purple-400 bg-purple-300/20 rounded-full'>
               <Icon
                 icon={'solar:magic-stick-3-linear'}
                 width={40}
@@ -24,7 +24,7 @@ const About: React.FC = () => {
               />
               Creativity
             </span>{' '}
-            <span className='font-instrumentS font-normal inline-flex items-center justify-center gap-2 py-1.5 px-6 text-blue-400 bg-blue-300/20 rounded-full'>
+            <span className='InstrumentS italic font-normal inline-flex items-center justify-center gap-2 py-1.5 px-6 text-blue-400 bg-blue-300/20 rounded-full'>
               <Icon
                 icon={'solar:lightbulb-bolt-linear'}
                 width={40}
@@ -33,7 +33,7 @@ const About: React.FC = () => {
               Innovation
             </span>{' '}
             &{' '}
-            <span className='font-instrumentS font-normal inline-flex items-center justify-center gap-2 py-1.5 px-6 text-orange-400 bg-orange-300/20 rounded-full'>
+            <span className='InstrumentS italic font-normal inline-flex items-center justify-center gap-2 py-1.5 px-6 text-orange-400 bg-orange-300/20 rounded-full'>
               <Icon icon={'solar:command-linear'} width={40} height={40} />
               Strategy
             </span>{' '}

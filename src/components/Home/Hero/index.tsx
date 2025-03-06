@@ -19,7 +19,9 @@ export default function Hero() {
           <div className='text-center'>
             <h1 className='text-6xl sm:text-8xl lg:text-9xl font-medium leading-16 sm:leading-30 lg:leading-xl text-inherit'>
               Building bold brands with{' '}
-              <span className='font-instrumentS'>thoughtful design</span>
+              <span className='InstrumentS italic font-normal'>
+                thoughtful design
+              </span>
             </h1>
           </div>
         </motion.div>

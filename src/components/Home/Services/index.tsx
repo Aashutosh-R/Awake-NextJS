@@ -9,7 +9,7 @@ const Services: React.FC = () => {
           <h3 className='text-center text-4xl lg:text-5xl font-medium leading-12'>
             Where innovation <br />
             meets{' '}
-            <span className='font-instrumentS font-normal'>aesthetics</span>
+            <span className='InstrumentS italic font-normal'>aesthetics</span>
           </h3>
         </div>
         {/* service list */}

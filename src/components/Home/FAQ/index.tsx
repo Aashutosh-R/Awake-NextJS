@@ -17,7 +17,7 @@ const FAQ: React.FC = () => {
           <h3 className='text-5xl font-medium text-center leading-14'>
             Got questions? <br />
             We’ve got{' '}
-            <span className='font-instrumentS font-normal'>answers</span>
+            <span className='InstrumentS italic font-normal'>answers</span>
           </h3>
         </div>
         <div>

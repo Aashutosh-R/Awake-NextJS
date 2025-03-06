@@ -8,7 +8,7 @@ const Plans: React.FC = () => {
         <div className='mb-20'>
           <h3 className='text-center text-5xl font-medium'>
             Pick the plan that <br /> fits your{' '}
-            <span className='font-instrumentS font-normal'>start-up</span>
+            <span className='InstrumentS italic font-normal'>start-up</span>
           </h3>
         </div>
         <div>
