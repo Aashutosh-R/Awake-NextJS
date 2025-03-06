@@ -12,9 +12,8 @@ export default function Hero() {
   }
 
   return (
-    <section className='relative dark:text-white text-black'>
-      <div className='absolute h-full w-full bg-gradient-to-r from-lightblue via-white to-lightyellow dark:from-lightgreen/50 dark:via-black dark:to-lightred/50 blur-2xl z-0'></div>
-      <div className='container relative max-w-[1163px] mx-auto py-12 sm:py-16 lg:py-20 px-7 lg:px-0 z-10 mt-24'>
+    <section className='relative w-full pt-44 2xl:pb-20 pb-10 dark:text-white text-black before:absolute before:h-full before:w-full before:bg-gradient-to-r before:from-lightblue dark:before:from-teal-800/40 before:via-white dark:before:via-gray-700/40 before:to-lightyellow dark:before:to-amber-800/40 before:blur-3xl before:top-24 before:z-0 before:rounded-full '>
+      <div className='container relative max-w-[1163px] mx-auto  px-7 lg:px-0 z-10 '>
         <motion.div {...upAnimation}>
           <div className='text-center'>
             <h1 className='text-6xl sm:text-8xl lg:text-9xl font-medium leading-16 sm:leading-30 lg:leading-xl text-inherit'>
