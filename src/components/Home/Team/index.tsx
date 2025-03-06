@@ -29,7 +29,7 @@ const Team: React.FC = () => {
                   className='grayscale-50 group-hover:grayscale-0'
                 />
                 <p className='text-base font-medium mt-6 mb-1'>{item.name}</p>
-                <p className='text-xm font-normal text-black/60 mb-4'>
+                <p className='text-xm font-normal text-black/60 dark:text-white/60 mb-4'>
                   {item.role}
                 </p>
                 <div className='flex items-center justify-center gap-4'>
@@ -38,7 +38,7 @@ const Team: React.FC = () => {
                       icon={'ph:x-logo'}
                       width={20}
                       height={20}
-                      className='hover:text-primary text-black/60'
+                      className='hover:text-primary text-black/60 dark:text-white/60'
                     />
                   </Link>
 
@@ -47,7 +47,7 @@ const Team: React.FC = () => {
                       icon={'ion:logo-linkedin'}
                       width={20}
                       height={20}
-                      className='hover:text-primary text-black/60'
+                      className='hover:text-primary text-black/60 dark:text-white/60'
                     />
                   </Link>
                 </div>
