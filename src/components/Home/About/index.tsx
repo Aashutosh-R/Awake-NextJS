@@ -53,7 +53,7 @@ const About: React.FC = () => {
                   <CountUp start={0} end={item.number} duration={2.5} />
                 )}
               </h3>
-              <p className='text-xs lg:text-base uppercase font-normal text-black/60 max-w-60p'>
+              <p className='text-xs lg:text-base uppercase font-normal text-black/60 dark:text-white/60 max-w-60p'>
                 {item.title}
               </p>
             </div>
