@@ -18,9 +18,9 @@ const Services: React.FC = () => {
             {servicedata.map((item, index) => (
               <div
                 key={index}
-                className={`${item.textColor} ${item.BgColor} p-8 rounded-2xl flex flex-col gap-8 transition ease-in-out duration-100 delay-75 hover:cursor-pointer hover:-translate-y-3`}>
+                className={`${item.textColor} ${item.BgColor} p-8 rounded-2xl flex flex-col gap-8`}>
                 <Icon icon={item.icon} width={40} height={40} />
-                <h5 className='max-w-60p font-medium text-base lg:text-xl'>
+                <h5 className={`${item.textColor} max-w-60p font-medium text-base lg:text-xl`}>
                   {item.title}
                 </h5>
               </div>
@@ -29,7 +29,7 @@ const Services: React.FC = () => {
         </div>
         {/*  */}
         <div>
-          <div className='bg-black rounded-3xl py-8 pr-10 pl-12 flex justify-between items-center flex-col md:flex-row gap-12 md:gap-0'>
+          <div className='bg-black dark:bg-gray-100/20 rounded-3xl py-8 pr-10 pl-12 flex justify-between items-center flex-col md:flex-row gap-12 md:gap-0'>
             <div className='text-center md:text-left text-white text-xl lg:text-2xl font-medium'>
               <p>See Our Work in Action.</p>
               <p>Start Your Creative Journey with Us!</p>
