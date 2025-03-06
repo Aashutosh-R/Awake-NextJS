@@ -18,17 +18,25 @@ const Achievements: React.FC = () => {
             {achievement.map((item, index) => (
               <div
                 key={index}
-                className='border border-black/10 rounded-2xl p-10 flex flex-col gap-16 grow'>
+                className='border border-black/10 dark:border-white/10 rounded-2xl p-10 flex flex-col gap-16 grow'>
                 <div>
                   <Image
                     src={item.src}
                     alt={item.title}
                     width={32}
                     height={32}
+                    className='dark:hidden block'
+                  />
+                  <Image
+                    src={item.srcDark}
+                    alt={item.title}
+                    width={32}
+                    height={32}
+                    className='dark:block hidden'
                   />
                 </div>
                 <div>
-                  <p className='text-base font-normal text-black/60 mb-3'>
+                  <p className='text-base font-normal text-black/60 dark:text-white/60 mb-3'>
                     {item.title}
                   </p>
                   <h5 className='text-2xl font-medium leading-7'>
@@ -36,7 +44,7 @@ const Achievements: React.FC = () => {
                   </h5>
                 </div>
                 <div>
-                  <p className='text-base font-normal text-black/60'>
+                  <p className='text-base font-normal text-black/60 dark:text-white/60'>
                     {item.year}
                   </p>
                 </div>
