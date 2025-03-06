@@ -8,11 +8,11 @@ export default function Brands() {
     <section>
       <div className='container mx-auto max-w-[1272px] py-20 px-7'>
         <div className='flex items-center justify-center mb-4'>
-          <div className='w-16 h-0.5 bg-linear-to-r from-black/0 to-black/10'></div>
-          <p className='text-center text-xs sm:text-xm md:text-base font-normal text-black/60 mx-4'>
+          <div className='w-16 h-0.5 bg-linear-to-r from-black/0 dark:from-white/0 to-black/50 dark:to-white/50'></div>
+          <p className='text-center text-xs sm:text-xm md:text-base font-normal text-black/60 dark:text-white/60 mx-4'>
             Loved by 1000+ big and small brands around the worlds
           </p>
-          <div className='w-16 h-0.5 bg-linear-to-l from-black/0 to-black/10'></div>
+          <div className='w-16 h-0.5 bg-linear-to-l from-black/0 dark:from-white/0 to-black/50 dark:to-white/50'></div>
         </div>
         <div className='relative pt-7'>
           <Slider
@@ -29,6 +29,15 @@ export default function Brands() {
                   width={140}
                   height={40}
                   style={{ height: '40px' }}
+                  className='dark:hidden block'
+                />
+                <Image
+                  src={item.imageDark}
+                  alt={item.alt}
+                  width={140}
+                  height={40}
+                  style={{ height: '40px' }}
+                  className='dark:block hidden'
                 />
               </Slider.Slide>
             ))}
