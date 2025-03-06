@@ -5,7 +5,7 @@ const AuthLinks: React.FC = () => {
     <>
       <button
         onClick={() => signIn('google')}
-        className='flex w-full items-center justify-center gap-2.5 rounded-lg border border-black p-3.5 text-dark duration-200 ease-in hover:bg-gray-100 hover:cursor-pointer'>
+        className='flex w-full items-center justify-center gap-2.5 rounded-lg border border-black dark:border-white p-3.5 text-dark duration-200 ease-in hover:bg-gray-100 dark:hover:bg-white/10 hover:cursor-pointer text-black dark:text-gray-200/90'>
         <svg
           width='23'
           height='22'
@@ -46,7 +46,7 @@ const AuthLinks: React.FC = () => {
 
       <button
         onClick={() => signIn('github')}
-        className='mt-4 flex w-full items-center justify-center gap-2.5 rounded-lg border border-black p-3.5 text-dark duration-200 ease-in hover:bg-gray-100 hover:cursor-pointer'>
+        className='mt-4 flex w-full items-center justify-center gap-2.5 rounded-lg border border-black dark:border-white p-3.5 text-dark duration-200 ease-in hover:bg-gray-100 dark:hover:bg-white/10 hover:cursor-pointer text-black dark:text-gray-200/90'>
         <svg
           width='22'
           height='22'

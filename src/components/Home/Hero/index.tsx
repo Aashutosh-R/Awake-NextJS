@@ -16,7 +16,7 @@ export default function Hero() {
       <div className='container relative max-w-[1163px] mx-auto  px-7 lg:px-0 z-10 '>
         <motion.div {...upAnimation}>
           <div className='text-center'>
-            <h1 className='text-6xl sm:text-8xl lg:text-9xl font-medium leading-16 sm:leading-30 lg:leading-xl text-inherit'>
+            <h1 className='text-6xl sm:text-8xl lg:text-9xl font-medium leading-16 sm:leading-30 lg:leading-xl'>
               Building bold brands with{' '}
               <span className='InstrumentS italic font-normal'>
                 thoughtful design

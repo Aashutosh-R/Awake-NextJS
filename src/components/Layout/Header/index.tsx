@@ -38,18 +38,18 @@ const Header: React.FC = () => {
       <nav className='container max-w-[1272px] mx-auto py-6 px-7 '>
         <div className='flex justify-between items-center'>
           <div>
-            <Link href='./'>
+            <Link href='/'>
               <Logo />
             </Link>
           </div>
-          <div>
-            <ul className='hidden lg:flex gap-2 items-center bg-black/5 dark:bg-white/10 dark:text-white rounded-full px-1.5 py-2.5'>
+          <div className='hidden lg:block p-1 bg-black/5 dark:bg-white/10 dark:text-white rounded-full'>
+            <ul className='lg:flex gap-2 items-center'>
               {headerData.map((item, index) => (
                 <HeaderLink key={index} item={item} />
               ))}
             </ul>
           </div>
-          <div className='lg:flex items-center gap-8 hidden'>
+          <div className='flex items-center gap-8'>
             <button
               onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
               <Icon
@@ -65,19 +65,19 @@ const Header: React.FC = () => {
                 className='dark:block hidden'
               />
             </button>
-            <div>
+            <div className='hidden lg:block'>
               <UserProfile />
             </div>
-          </div>
-          <div className='block lg:hidden'>
-            <button
-              onClick={() => setNavbarOpen(!navbarOpen)}
-              className='p-2 rounded-lg'
-              aria-label='Toggle mobile menu'>
-              <span className='block w-6 h-0.5 bg-black'></span>
-              <span className='block w-6 h-0.5 bg-black mt-1.5'></span>
-              <span className='block w-6 h-0.5 bg-black mt-1.5'></span>
-            </button>
+            <div className='block lg:hidden'>
+              <button
+                onClick={() => setNavbarOpen(!navbarOpen)}
+                className='p-2 rounded-lg'
+                aria-label='Toggle mobile menu'>
+                <span className='block w-6 h-0.5 bg-black dark:bg-gray-200/90'></span>
+                <span className='block w-6 h-0.5 bg-black dark:bg-gray-200/90 mt-1.5'></span>
+                <span className='block w-6 h-0.5 bg-black dark:bg-gray-200/90 mt-1.5'></span>
+              </button>
+            </div>
           </div>
         </div>
       </nav>
@@ -86,7 +86,7 @@ const Header: React.FC = () => {
       )}
       <div
         ref={mobileMenuRef}
-        className={`lg:hidden fixed top-0 right-0 h-full w-full bg-white shadow-lg transition-transform duration-300 max-w-xs ${
+        className={`lg:hidden fixed top-0 right-0 h-full w-full bg-white dark:bg-black shadow-lg transition-transform duration-300 max-w-xs ${
           navbarOpen ? 'translate-x-0' : 'translate-x-full'
         } z-50`}>
         <div className='flex items-center justify-between p-4'>
@@ -114,6 +114,9 @@ const Header: React.FC = () => {
           {headerData.map((item, index) => (
             <MbHeaderLink key={index} item={item} />
           ))}
+          <div className='mt-4'>
+            <UserProfile />
+          </div>
         </nav>
       </div>
     </header>

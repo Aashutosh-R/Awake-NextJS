@@ -7,9 +7,10 @@ const MbHeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
   const router = useRouter()
 
   const btnclassname = clsx(
-    'flex items-center justify-between rounded-md w-full p-2 px-4 text-black focus:outline-none',
+    'flex items-center justify-between rounded-md w-full p-2 px-4 text-black dark:text-gray-200/90 focus:outline-none',
     {
-      'bg-black text-white': item.href === path,
+      'bg-black dark:bg-white/20 text-white dark:text-white':
+        item.href === path,
     }
   )
 
