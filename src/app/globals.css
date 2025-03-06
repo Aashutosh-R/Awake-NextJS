@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+
+@plugin 'tailwindcss-animate';
+
+@custom-variant dark (&:is(.dark *));
+@custom-variant dark (&:where(.dark, .dark *));
+@import 'tailwindcss';
+
+@theme {
+  /* font-family */
+  --font-instrumentS: 'Instrument Serif', serif;
+
+  /* breakpoint */
+  --breakpoint-xxs: 34.375rem;
+  --breakpoint-xs: 31.875rem; /*510px*/
+
+  /* radius */
+  --radius-xm: 0.5rem; /* 8px */
+
+  /* font-size */
+  --text-xm: 0.875rem; /* 14px */
+
+  /* color */
+  --color-primary: #4928fd;
+  --color-lightblue: #d9f3fc;
+  --color-lightyellow: #fdf1d3;
+  --color-lightgreen: #5E8E3E;
+  --color-lightred: #FA0C00;
+
+  /* line-height */
+  --leading-5.5: 1.4rem;
+  --leading-xl: 9.75rem;
+
+  /* gap */
+  --spacing-30: 7.5rem;
+  --spacing-30p: 30%;
+  --spacing-60p: 60%;
+  --spacing-80p: 80%;
+}
