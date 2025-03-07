@@ -20,7 +20,8 @@ const Services: React.FC = () => {
                 key={index}
                 className={`${item.textColor} ${item.BgColor} p-8 rounded-2xl flex flex-col gap-8`}>
                 <Icon icon={item.icon} width={40} height={40} />
-                <h5 className={`${item.textColor} max-w-60p font-medium text-base lg:text-xl`}>
+                <h5
+                  className={`${item.textColor} max-w-60p font-medium text-base lg:text-xl`}>
                   {item.title}
                 </h5>
               </div>
