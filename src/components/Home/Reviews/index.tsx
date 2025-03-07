@@ -55,7 +55,6 @@ const Reviews: React.FC = () => {
                   alt='img'
                   width={344}
                   height={220}
-                  layout= 'responsive'
                   className='rounded-xm w-full'
                 />
               </div>
