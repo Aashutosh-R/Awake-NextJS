@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter_Tight , Instrument_Serif } from 'next/font/google'
+import { Inter_Tight, Instrument_Serif } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Layout/Header'
 import Footer from '@/components/Layout/Footer'
@@ -16,8 +16,8 @@ const instrumentS = Instrument_Serif({
   variable: '--font-InstrumentS',
   subsets: ['latin'],
   weight: '400',
-  display:'swap',
-  style:'italic'
+  display: 'swap',
+  style: 'italic',
 })
 
 export const metadata: Metadata = {

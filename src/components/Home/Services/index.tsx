@@ -30,12 +30,12 @@ const Services: React.FC = () => {
         {/*  */}
         <div>
           <div className='bg-black dark:bg-gray-100/20 rounded-3xl py-8 pr-10 pl-12 flex justify-between items-center flex-col md:flex-row gap-12 md:gap-0'>
-            <div className='text-center md:text-left text-white text-xl lg:text-2xl font-medium'>
-              <p>See Our Work in Action.</p>
-              <p>Start Your Creative Journey with Us!</p>
+            <div className='text-center md:text-left text-xl lg:text-2xl font-medium'>
+              <p className='text-white'>See Our Work in Action.</p>
+              <p className='text-white'>Start Your Creative Journey with Us!</p>
             </div>
             <div className='flex gap-3 items-center flex-col sm:flex-row'>
-              <button className='bg-white text-black text-xm lg:text-base font-medium rounded-full py-2 pr-2 pl-5 flex items-center gap-4'>
+              <button className='bg-white text-black hover:bg-white/90 hover:cursor-pointer text-xm lg:text-base font-medium rounded-full py-2 pr-2 pl-5 flex items-center gap-4'>
                 Let’s Collaborate{' '}
                 <span className='p-1.5 bg-black text-white rounded-full'>
                   <Icon
@@ -45,9 +45,9 @@ const Services: React.FC = () => {
                   />
                 </span>
               </button>
-              <button className='border border-white bg-transparent text-white text-xm lg:text-base font-medium rounded-full py-2 pr-2 pl-5 flex items-center gap-4'>
+              <button className='border border-white dark:hover:border-black bg-transparent hover:bg-white dark:hover:bg-black text-white hover:text-black dark:hover:text-white hover:cursor-pointer text-xm lg:text-base font-medium rounded-full py-2 pr-2 pl-5 flex items-center gap-4 group'>
                 View Portfolio{' '}
-                <span className='p-1.5 bg-white text-black rounded-full'>
+                <span className='p-1.5 bg-white text-black group-hover:bg-black group-hover:text-white dark:group-hover:bg-white dark:group-hover:text-black rounded-full'>
                   <Icon
                     icon={'solar:arrow-right-up-linear'}
                     width={20}
