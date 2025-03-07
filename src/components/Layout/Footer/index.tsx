@@ -53,12 +53,16 @@ const Footer: React.FC = () => {
             <div className='md:col-span-3 xxs:col-span-6 col-span-5'>
               <p className='text-base font-medium mb-4'>Contact Details</p>
               <div className='text-base font-normal flex flex-col gap-3'>
-                <p>
+                <p className='text-black/60 dark:text-white/60'>
                   81 Rivington Street London <br />
                   EC2A 3AY
                 </p>
-                <p>hello@awake.agnecy</p>
-                <p>0105 192 3556</p>
+                <Link href={'#'}>
+                  <p className='text-black/60 dark:text-white/60 hover:text-black dark:hover:text-white'>hello@awake.agnecy</p>
+                </Link>
+                <Link href={'#'}>
+                  <p className='text-black/60 dark:text-white/60 hover:text-black dark:hover:text-white'>0105 192 3556</p>
+                </Link>
               </div>
             </div>
           </div>
