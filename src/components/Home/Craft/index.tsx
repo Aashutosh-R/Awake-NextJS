@@ -17,7 +17,7 @@ const Craft: React.FC = () => {
               interaction.
             </p>
             <div className='flex justify-center'>
-              <button className='flex items-center gap-4 border border-black dark:border-white bg-black text-white dark:bg-white dark:text-black font-medium py-2 pl-5 pr-2 rounded-full text-base group hover:cursor-pointer'>
+              <button className='flex items-center gap-4 border border-black dark:border-white bg-black text-white dark:bg-white dark:text-black font-medium py-2 pl-5 pr-2 rounded-full text-base group hover:cursor-pointer hover:bg-white/85'>
                 Let’s Collaborate
                 <span className='bg-white text-black dark:bg-black dark:text-white rounded-full p-1.5'>
                   <Icon
