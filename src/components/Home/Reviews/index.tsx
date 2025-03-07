@@ -31,16 +31,20 @@ const Reviews: React.FC = () => {
               </div>
             </div>
             <div className='col-span-12 sm:col-span-6 xl:col-span-4'>
-              <div className='h-full w-full bg-yellow-200 rounded-2xl p-8'>
-                <p className='text-xs lg:text-xm font-medium text-black/60 uppercase tracking-widest mb-40 lg:mb-[14.625rem]'>
-                  Facts & numbers
-                </p>
-                <h2 className='text-5xl lg:text-7xl font-medium text-black'>
-                  91%
-                </h2>
-                <p className='text-xl lg:text-3xl font-medium text-black'>
-                  clients recommend our design services.”
-                </p>
+              <div className='h-full w-full bg-yellow-200 rounded-2xl p-8 flex flex-col justify-between'>
+                <div>
+                  <p className='text-xs lg:text-xm font-medium text-black/60 uppercase tracking-widest mb-40 lg:mb-[14.625rem]'>
+                    Facts & numbers
+                  </p>
+                </div>
+                <div>
+                  <h2 className='text-5xl lg:text-7xl font-medium text-black'>
+                    91%
+                  </h2>
+                  <p className='text-xl lg:text-3xl font-medium text-black'>
+                    clients recommend our design services.”
+                  </p>
+                </div>
               </div>
             </div>
             <div className='col-span-12 sm:col-span-6 xl:col-span-4'>
