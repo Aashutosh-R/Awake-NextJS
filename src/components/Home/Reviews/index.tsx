@@ -14,7 +14,7 @@ const Reviews: React.FC = () => {
         </div>
         <div>
           <div className='grid grid-cols-12 gap-6'>
-            <div className='col-span-12 sm:col-span-6 xl:col-span-8'>
+            <div className='col-span-12 sm:col-span-12 xl:col-span-8'>
               <div className='h-full w-full p-8 rounded-2xl text-white bg-[url(/images/reviews/customerReview.jpg)] bg-no-repeat dark:border dark:border-white/20'>
                 <p className='text-xs lg:text-xm font-medium text-white/60 uppercase tracking-widest mb-30 lg:mb-60'>
                   Customer stories
@@ -35,13 +35,15 @@ const Reviews: React.FC = () => {
                 <p className='text-xs lg:text-xm font-medium text-black/60 uppercase tracking-widest mb-40 lg:mb-[14.625rem]'>
                   Facts & numbers
                 </p>
-                <h2 className='text-5xl lg:text-7xl font-medium text-black'>91%</h2>
+                <h2 className='text-5xl lg:text-7xl font-medium text-black'>
+                  91%
+                </h2>
                 <p className='text-xl lg:text-3xl font-medium text-black'>
                   clients recommend our design services.”
                 </p>
               </div>
             </div>
-            <div className='col-span-12 md:col-span-6 xl:col-span-4'>
+            <div className='col-span-12 sm:col-span-6 xl:col-span-4'>
               <div className='h-full w-full bg-black dark:bg-gray-950 rounded-2xl p-8 flex flex-col justify-between'>
                 <p className='text-xs lg:text-xm font-medium text-white/60 uppercase tracking-widest mb-6'>
                   Customer stories
@@ -59,7 +61,7 @@ const Reviews: React.FC = () => {
                 />
               </div>
             </div>
-            <div className='col-span-12 md:col-span-6 xl:col-span-8'>
+            <div className='col-span-12 sm:col-span-12 xl:col-span-8'>
               <div className='h-full w-full bg-black/5 dark:bg-gray-100/20 rounded-2xl p-8'>
                 <p className='text-xs lg:text-xm font-medium text-black/60 dark:text-white/60 uppercase tracking-widest mb-6'>
                   Customer stories
