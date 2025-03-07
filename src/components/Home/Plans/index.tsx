@@ -6,7 +6,7 @@ const Plans: React.FC = () => {
     <section>
       <div className='container mx-auto max-w-[1272px] py-20 px-7'>
         <div className='mb-20'>
-          <h3 className='text-center text-5xl font-medium'>
+          <h3 className='text-center font-medium text-4xl lg:text-5xl'>
             Pick the plan that <br /> fits your{' '}
             <span className='InstrumentS italic font-normal'>start-up</span>
           </h3>
