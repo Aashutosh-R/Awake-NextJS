@@ -37,7 +37,7 @@ export default function Hero() {
               <span className='text-xm md:text-base text-white font-medium group-hover:text-primary group-hover:translate-x-30 transition delay-150 duration-400 ease-in-out'>
                 Get Started
               </span>
-              <span className='bg-white text-black group-hover:bg-primary group-hover:text-white group-hover:rotate-45 group-hover:-translate-x-44 md:group-hover:-translate-x-48 transition delay-150 duration-400 ease-in-out rounded-full p-2.5'>
+              <span className='bg-white text-black group-hover:bg-primary group-hover:text-white group-hover:rotate-45 group-hover:-translate-x-40 md:group-hover:-translate-x-48 transition delay-150 duration-400 ease-in-out rounded-full p-2.5'>
                 <Icon
                   icon={'solar:arrow-right-up-linear'}
                   width={20}
