@@ -6,6 +6,7 @@
 
 @theme {
   /* breakpoint */
+  --breakpoint-BLG: 56.25rem; /*900 px*/
   --breakpoint-xxs: 34.375rem;
   --breakpoint-xs: 31.875rem; /*510px*/
 
